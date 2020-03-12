@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Gunde7</string>
+    <string name="gunde_7">GUNDE_7.m</string>
+    <string name="x">X</string>
+    <string name="adder">+</string>
+    <string name="prev"><![CDATA[<--]]></string>
+    <string name="backpg"><![CDATA[<---]]></string>
+    <string name="nextpg"><![CDATA[--->]]></string>
+</resources>

@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp"
+        android:gravity="center"
+        android:text="GUNDE_7+"
+        android:textColor="#fff"
+        android:textSize="30dp"
+        app:fontFamily="sans-serif-medium" />
+
+
+    <GridView
+        android:layout_width="match_parent"
+        android:layout_height="370dp"
+        android:layout_marginTop="58dp"
+        android:id="@+id/my_viewGrid"
+        android:numColumns="3"
+        android:padding="5dp"
+        />
+    <Button
+        android:layout_width="50dp"
+        android:layout_height="27dp"
+        android:layout_alignParentBottom="true"
+
+        android:layout_marginEnd="10dp"
+        android:layout_marginRight="10dp"
+        android:id="@+id/my_prev"
+        android:layout_marginBottom="50dp"
+        android:text="@string/backpg"
+        android:textColor="#fff"
+        android:background="#196F1F"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="4dp">
+
+        <EditText
+            android:id="@+id/my_input"
+            android:layout_width="164dp"
+            android:layout_height="match_parent"
+            android:inputType="number"
+            android:hint="ex:27/02/2020"
+            android:textColor="#FF0000"
+            android:textColorHighlight="#1A237E"
+            android:textColorHint="#464343"
+            android:textColorLink="#311B92"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/my_adder"
+            android:layout_width="56dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/add_buttom"
+            android:text="@string/adder"
+            android:textColor="#fff"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/my_removeInput"
+            android:layout_width="40dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="-1dp"
+            android:hint="X"
+            android:inputType="number"
+            android:textColor="#B40D0D"
+            android:textColorHighlight="#AD0909"
+            android:textColorHint="#464343"
+            android:textColorLink="#311B92"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/my_removeBtn"
+            android:layout_width="50dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="5dp"
+            android:background="#CC0000"
+            android:gravity="center"
+            android:text="X"
+            android:textColor="#ffff"
+            android:textSize="30dp"
+            android:textStyle="bold" />
+
+
+    </LinearLayout>
+</RelativeLayout>
